@@ -5,7 +5,7 @@ describe("When fight button has been clicked", function() {
     battle = new Battle();
   });
 
-  it("should display text below it", function() {
+  it("should display a result below it", function() {
     battle.update(["5", "4"]);
     expect(battle.result).toEqual("A wins!");
   });
